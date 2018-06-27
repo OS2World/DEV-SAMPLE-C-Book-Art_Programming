@@ -1,0 +1,13 @@
+#include <os2.h>
+#include "mle3rc.h"
+
+MENU RES_CLIENT
+{
+   SUBMENU "~Sample", M_SAMPLE
+   {
+      MENUITEM "~Import text", MI_IMPORTTEXT
+      MENUITEM "~Export text", MI_EXPORTTEXT
+      MENUITEM SEPARATOR
+      MENUITEM "E~xit", MI_EXIT
+   }
+}

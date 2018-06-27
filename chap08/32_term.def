@@ -1,0 +1,6 @@
+NAME 32_TERM WINDOWCOMPAT
+DESCRIPTION '32_TERM example
+            Copyright (c) 1992-1995 by Arthur Panov.
+            All rights reserved.'
+STACKSIZE 16384
+

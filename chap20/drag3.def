@@ -1,0 +1,8 @@
+NAME DRAG3 WINDOWAPI
+
+DESCRIPTION 'Drag example 3
+Copyright (c) 1995 by Larry Salomon
+All rights reserved.'
+
+STACKSIZE 16384
+

@@ -1,0 +1,25 @@
+#include <os2.h>
+#include "listbox.h"
+
+MENU ID_RESOURCE
+{
+   SUBMENU "~File", -1
+   {
+      MENUITEM "~Display Dialog", IDM_DISPLAY
+      MENUITEM SEPARATOR
+      MENUITEM "E~xit", IDM_EXIT
+   }
+}
+
+
+DLGTEMPLATE IDD_LISTBOX LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "Listbox Example", IDD_LISTBOX, 12, 13, 297, 146, WS_VISIBLE,
+            FCF_SYSMENU | FCF_TITLEBAR
+    BEGIN
+        LISTBOX         IDL_LISTBOX, 14, 18, 252, 121, LS_OWNERDRAW
+        DEFPUSHBUTTON   "OK", DID_OK, 3, 3, 40, 13, WS_GROUP
+        PUSHBUTTON      "Cancel", DID_CANCEL, 48, 3, 40, 13
+    END
+END
+

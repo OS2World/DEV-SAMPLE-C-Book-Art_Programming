@@ -1,0 +1,11 @@
+;---------------------------------------------
+; HELP2.DEF
+;---------------------------------------------
+NAME HELP2 WINDOWAPI
+
+DESCRIPTION 'Help Example 2
+Copyright 1994 by Larry Salomon.
+All rights reserved.'
+
+STACKSIZE 32768
+

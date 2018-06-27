@@ -1,0 +1,15 @@
+ALL:    HOWBIG.EXE
+
+HOWBIG.EXE:                       HOWBIG.OBJ
+        LINK @<<
+HOWBIG
+HOWBIG.EXE
+HOWBIG
+COUNT
+HOWBIG
+<<
+
+
+HOWBIG.OBJ:                  HOWBIG.C HOWBIG.MAK HOWBIG.DEF
+        CL -c -AL HOWBIG.C
+

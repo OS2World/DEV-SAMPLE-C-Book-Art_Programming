@@ -1,0 +1,9 @@
+#include <os2.h>
+#include "drag3rc.h"
+
+MENU M_LAZYDRAG
+{
+   MENUITEM "Drop item", MI_DROP
+   MENUITEM "Cancel drag", MI_CANCELDRAG
+}
+

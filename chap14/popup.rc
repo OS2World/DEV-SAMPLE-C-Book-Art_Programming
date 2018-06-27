@@ -1,0 +1,11 @@
+#include <os2.h>
+#include "popup.h"
+
+MENU IDM_POPUP
+{
+   MENUITEM "~Icon View", IDM_ICON
+   MENUITEM "~Name View", IDM_NAME
+   MENUITEM "~Text View", IDM_TEXT
+   MENUITEM "~Detail View", IDM_DETAIL
+}
+

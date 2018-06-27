@@ -1,0 +1,7 @@
+NAME THRD2 WINDOWAPI
+
+DESCRIPTION 'PM Threads Example 2
+Copyright (c) 1993 by Larry Salomon, Jr.
+All rights reserved.'
+
+STACKSIZE 0x4000

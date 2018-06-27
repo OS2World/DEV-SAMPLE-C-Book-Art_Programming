@@ -1,0 +1,13 @@
+LIBRARY INITINSTANCE
+PROTMODE
+DESCRIPTION '16bitIO example
+             Copyright (c) 1992-1995 by Arthur Panov.
+             All rights reserved.'
+DATA NONSHARED
+SEGMENTS _IOSEG CLASS 'IOSEG_CODE' IOPL
+EXPORTS
+       _my_inp   1
+       _my_outp  2
+       _my_inpw  1
+       _my_outpw 2
+STACKSIZE 4096

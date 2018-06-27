@@ -1,0 +1,31 @@
+#include <os2.h>
+#include "entryrc.h"
+
+DLGTEMPLATE DLG_ENTRYFIELDS LOADONCALL MOVEABLE DISCARDABLE
+{
+   DIALOG "Entryfield Sample", DLG_ENTRYFIELDS, 111, 29, 150, 130,
+      WS_VISIBLE,
+      FCF_SYSMENU | FCF_TITLEBAR
+   {
+      GROUPBOX "Alignment", -1, 5, 70, 140, 55, NOT WS_GROUP
+      LTEXT "Left aligned", -1, 10, 105, 65, 8, NOT WS_GROUP
+      LTEXT "Center aligned", -1, 10, 90, 65, 8, NOT WS_GROUP
+      LTEXT "Right aligned", -1, 10, 75, 65, 8, NOT WS_GROUP
+      GROUPBOX "Miscellaneous", -1, 5, 30, 140, 40, NOT WS_GROUP
+      LTEXT "Read-only", -1, 9, 50, 65, 8, NOT WS_GROUP
+      LTEXT "Unreadable", -1, 10, 35, 65, 8, NOT WS_GROUP
+      ENTRYFIELD "", DEF_ENTRY1, 82, 105, 56, 8, ES_MARGIN |
+         WS_GROUP | ES_AUTOSCROLL
+      ENTRYFIELD "", DEF_ENTRY2, 82, 90, 56, 8, ES_CENTER |
+         ES_MARGIN | ES_AUTOSCROLL
+      ENTRYFIELD "", DEF_ENTRY3, 82, 75, 56, 8, ES_RIGHT |
+         ES_MARGIN | ES_AUTOSCROLL
+      ENTRYFIELD "", DEF_ENTRY4, 82, 50, 56, 8, ES_MARGIN |
+         ES_READONLY | WS_GROUP | ES_AUTOSCROLL
+      ENTRYFIELD "", DEF_ENTRY5, 82, 35, 56, 8, ES_MARGIN |
+         ES_UNREADABLE | ES_AUTOSCROLL
+      DEFPUSHBUTTON "Cancel", DID_CANCEL, 11, 10, 40, 13,
+         WS_GROUP
+   }
+}
+

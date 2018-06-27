@@ -1,0 +1,5 @@
+NAME CHK16550 WINDOWCOMPAT
+DESCRIPTION 'CHK16550 example
+            Copyright (c) 1992 by Arthur Panov.
+            All rights reserved.'
+STACKSIZE 16384

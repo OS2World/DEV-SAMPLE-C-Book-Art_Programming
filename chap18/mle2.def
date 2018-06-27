@@ -1,0 +1,8 @@
+NAME MLE2 WINDOWAPI NEWFILES
+
+DESCRIPTION 'MLE Sample 2
+Copyright (c) 1994 by Larry Salomon, Jr.
+All rights reserved.'
+
+STACKSIZE 0x4000
+

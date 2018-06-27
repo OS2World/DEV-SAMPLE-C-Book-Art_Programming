@@ -1,0 +1,15 @@
+#include <os2.h>
+#include "mle1rc.h"
+
+MENU RES_CLIENT
+{
+   SUBMENU "~Sample", M_SAMPLE
+   {
+      MENUITEM "~Add text", MI_ADDTEXT
+      MENUITEM "~Select all", MI_SELECTALL
+      MENUITEM "~Read only", MI_READONLY
+      MENUITEM SEPARATOR
+      MENUITEM "E~xit", MI_EXIT
+   }
+}
+

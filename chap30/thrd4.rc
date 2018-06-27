@@ -1,0 +1,11 @@
+#include <os2.h>
+#include "thrd4rc.h"
+
+MENU RES_CLIENT
+{
+   MENUITEM "~Note thread", MI_NOTETHREAD
+   MENUITEM "~Warning thread", MI_WARNINGTHREAD
+   MENUITEM "~Error thread", MI_ERRORTHREAD
+   MENUITEM SEPARATOR
+   MENUITEM "E~xit", MI_EXIT
+}

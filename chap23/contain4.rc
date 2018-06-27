@@ -1,0 +1,33 @@
+#include <os2.h>
+#include "contain4.h"
+
+ICON ICO_ITEM CONTAIN4.ICO
+
+MENU RES_CLIENT
+{
+   SUBMENU "~Views   ", M_VIEWS
+   {
+      MENUITEM "~Icon", MI_ICON
+      MENUITEM "~Detail", MI_DETAIL
+      MENUITEM "~Tree", MI_TREE
+      MENUITEM "~Name/flowed", MI_NAMEFLOWED
+      MENUITEM "Te~xt/flowed", MI_TEXTFLOWED
+   }
+   MENUITEM SEPARATOR
+   SUBMENU "~Sort   ", M_SORT
+   {
+      MENUITEM "By ~units sold", MI_SORTBYUNITS
+      MENUITEM "By ~year", MI_SORTBYYEAR
+   }
+   MENUITEM SEPARATOR
+   SUBMENU "~Filter   ", M_FILTER
+   {
+      MENUITEM "Show $~300.00 or greater", MI_FILTER300DOLLARS
+      MENUITEM "Show $~400.00 or greater", MI_FILTER400DOLLARS
+      MENUITEM "Show $~500.00 or greater", MI_FILTER500DOLLARS
+      MENUITEM "Show all records", MI_FILTERNONE
+   }
+   MENUITEM SEPARATOR
+   MENUITEM "E~xit", MI_EXIT
+}
+

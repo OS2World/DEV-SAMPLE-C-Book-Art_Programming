@@ -1,0 +1,16 @@
+;---------------------------------------------
+; CONTAIN4.DEF
+;---------------------------------------------
+
+NAME  CONTAIN4  WINDOWAPI
+
+DESCRIPTION 'Fourth container example
+Copyright 1992 by Larry Salomon
+All rights reserved.'
+
+CODE    MOVEABLE
+DATA    MOVEABLE MULTIPLE
+
+HEAPSIZE  10240
+STACKSIZE 32768
+

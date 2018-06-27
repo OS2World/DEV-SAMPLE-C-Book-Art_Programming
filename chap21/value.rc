@@ -1,0 +1,29 @@
+#include <os2.h>
+#include "value.h"
+
+
+MENU ID_FRAME
+{
+   SUBMENU "~File", -1
+   {
+      MENUITEM "~Display Dialog", IDM_DISPLAY
+      MENUITEM SEPARATOR
+      MENUITEM "E~xit", IDM_EXIT
+   }
+}
+
+
+
+DLGTEMPLATE IDD_VALUE LOADONCALL MOVEABLE DISCARDABLE
+{
+    DIALOG  "Color Set", IDD_VALUE, 12, 12, 155, 105, WS_VISIBLE,
+            FCF_SYSMENU | FCF_TITLEBAR
+    {
+        LTEXT           "Select color: ", -1, 11, 25, 102, 8
+        VALUESET        IDV_VALUE, 13, 38, 91, 61, VS_COLORINDEX | VS_BORDER
+                        CTLDATA 8, 0, 3, 4
+        PUSHBUTTON      "Cancel", DID_CANCEL, 6, 2, 40, 14
+    }
+}
+
+

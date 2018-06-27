@@ -1,0 +1,9 @@
+#include <os2.h>
+#include "thrd1rc.h"
+
+MENU RES_CLIENT
+{
+   MENUITEM "~Start thread", MI_THREAD
+   MENUITEM SEPARATOR
+   MENUITEM "E~xit", MI_EXIT
+}

@@ -1,0 +1,6 @@
+NAME AUT16550 WINDOWCOMPAT
+DESCRIPTION 'AUT16550 example
+            Copyright (c) 1992-1995 by Arthur Panov.
+            All rights reserved.'
+STACKSIZE 16384
+

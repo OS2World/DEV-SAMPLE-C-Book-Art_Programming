@@ -1,0 +1,7 @@
+NAME MLE3 WINDOWAPI NEWFILES
+
+DESCRIPTION 'MLE Sample 3
+Copyright (c) 1994 by Larry Salomon, Jr.
+All rights reserved.'
+
+STACKSIZE 0x4000

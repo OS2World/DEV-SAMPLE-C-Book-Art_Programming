@@ -1,0 +1,12 @@
+D_CLIENT.EXE:                       D_CLIENT.OBJ
+        LINK  /NOD @<<
+D_CLIENT
+D_CLIENT
+D_CLIENT
+LLIBCER
+
+<<
+
+D_CLIENT.OBJ:        D_CLIENT.C D_CLIENT.MAK
+        CL -c -AL D_CLIENT.C
+

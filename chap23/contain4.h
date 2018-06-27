@@ -1,0 +1,19 @@
+#define RES_CLIENT               256
+#define WND_CONTAINER            257
+#define ICO_ITEM                 258
+#define M_VIEWS                  320
+#define MI_ICON                  321
+#define MI_DETAIL                322
+#define MI_TREE                  323
+#define MI_NAMEFLOWED            324
+#define MI_TEXTFLOWED            325
+#define M_SORT                   336
+#define MI_SORTBYUNITS           337
+#define MI_SORTBYYEAR            338
+#define M_FILTER                 352
+#define MI_FILTER300DOLLARS      353
+#define MI_FILTER400DOLLARS      354
+#define MI_FILTER500DOLLARS      355
+#define MI_FILTERNONE            356
+#define MI_EXIT                  368
+

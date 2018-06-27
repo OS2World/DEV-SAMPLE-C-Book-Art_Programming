@@ -1,0 +1,5 @@
+NAME HOWBIG WINDOWCOMPAT
+DESCRIPTION 'simple 16-32 EXE example
+             Copyright (c) 1992-1995 by Arthur Panov.
+             All rights reserved.'
+STACKSIZE 16384
